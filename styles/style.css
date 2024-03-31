@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 ::-webkit-scrollbar {
   width: 2px;
@@ -11,7 +10,6 @@
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-  
 }
 
 ::-webkit-scrollbar-thumb {
@@ -24,9 +22,9 @@
 }
 
 body {
-    background-color: #F0F1F7;
-    color: "#333335";
-    font-family: "Inter", sans-serif;
+  background-color: #f0f1f7;
+  color: "#333335";
+  font-family: "Inter", sans-serif;
 }
 
 .btn-primary {
@@ -36,7 +34,8 @@ body {
   @apply py-3 px-4 inline-flex items-center justify-center gap-x-2 text-sm font-semibold rounded-lg bg-primary-20 text-primary hover:bg-primary-20 disabled:opacity-50 disabled:pointer-events-none;
 }
 
-.input_custom{
+.input_custom {
   @apply py-3 px-4 block w-full border-gray-2 rounded-lg text-sm focus:border-primary-20 focus:ring-primary-20 disabled:opacity-50 disabled:pointer-events-none;
 }
+
 
