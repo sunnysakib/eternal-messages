@@ -35,7 +35,7 @@ body {
 }
 
 .input_custom {
-  @apply py-3 px-4 block w-full border-gray-2 rounded-lg text-sm focus:border-primary-20 focus:ring-primary-20 disabled:opacity-50 disabled:pointer-events-none;
+  @apply py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-primary-20 focus:ring-primary-20 disabled:opacity-50 disabled:pointer-events-none;
 }
 
 
